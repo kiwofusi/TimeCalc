@@ -1,3 +1,14 @@
 RSpecの練習
 
 "○h○m"フォーマットの時間を計算する。
+
+irb(main):001:0> require 'time_calc.rb'
+=> true
+irb(main):002:0> TimeCalc.sum("1h0m + 1h30m").to_s
+=> "2h30m"
+
+参考
+http://jp.rubyist.net/magazine/?0021-Rspec
+http://jp.rubyist.net/magazine/?0032-TranslationArticle
+http://d.hatena.ne.jp/t-wada/20100228/p1
+http://jp.rubyist.net/magazine/?0035-RSpecInPractice
