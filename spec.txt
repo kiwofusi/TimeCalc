@@ -1,0 +1,38 @@
+
+TimeCalc ‚É‚Â‚¢‚Ä
+  new‚Å‚«‚é
+
+TimeCalc ‚ğ'2h30m'‚Ånew‚µ‚½‚Æ‚«
+  #hour ‚Í2‚Å‚ ‚é
+  #min ‚Í30‚Å‚ ‚é
+  #to_s ‚Í'2h30m'‚Å‚ ‚é
+  #to_min ‚Í '150m'‚Å‚ ‚é
+
+TimeCalc ‚ğ'4h50m'‚Ånew‚µ‚½‚Æ‚«
+  #hour ‚Í4‚Å‚ ‚é
+  #min ‚Í50‚Å‚ ‚é
+  #to_s ‚Í'4h50m'‚Å‚ ‚é
+
+TimeCalc ‚ÅŠÔ‚Ì‘«‚µZF
+  ‘«‚µZ‚ª‚Å‚«‚é
+  ŒJ‚èã‚ª‚è‚Ì‚ ‚é‘«‚µZ‚ª‚Å‚«‚é
+  3€ˆÈã‚Ì‘«‚µZ‚ª‚Å‚«‚é
+  ˆê‚Â‚Ì€‚¾‚¯‚Å‚à“Ç‚İ‚ß‚é (FAILED - 1)
+
+Failures:
+
+  1) TimeCalc ‚ÅŠÔ‚Ì‘«‚µZF ˆê‚Â‚Ì€‚¾‚¯‚Å‚à“Ç‚İ‚ß‚é
+     Failure/Error: TimeCalc.sum(exp).hour.should == 1
+     NoMethodError:
+       undefined method `[]' for nil:NilClass
+     # ./time_calc.rb:5:in `sum'
+     # ./time_calc.rb:4:in `each'
+     # ./time_calc.rb:4:in `sum'
+     # ./time_calc_spec.rb:75
+
+Finished in 0.005 seconds
+12 examples, 1 failure
+
+Failed examples:
+
+rspec ./time_calc_spec.rb:68 # TimeCalc ‚ÅŠÔ‚Ì‘«‚µZF ˆê‚Â‚Ì€‚¾‚¯‚Å‚à“Ç‚İ‚ß‚é
